@@ -1,0 +1,9 @@
+body {
+    background-color: lightblue;
+}
+
+.wrap {
+    max-width: 720px;
+    text-align: center;
+    margin: 0 auto;
+}
