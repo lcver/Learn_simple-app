@@ -3,6 +3,9 @@ const express = require('express');
 
 const app = express();
 
+// set tampilan mesin untuk nodejs
+app.set('view engine', 'ejs');
+
 // membuat router untuk "/"
 app.get("/", function (req, res) {
     res.end("Hello World")
