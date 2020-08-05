@@ -1,0 +1,19 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "\"Learn on efendi-maulana.blogspot.com\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcver/Learn_simple-app.git"
+  },
+  "author": "lcver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcver/Learn_simple-app/issues"
+  },
+  "homepage": "https://github.com/lcver/Learn_simple-app#readme"
+}
