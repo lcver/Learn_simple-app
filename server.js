@@ -14,10 +14,13 @@ app.get("/", function (req, res) {
 })
 
 app.get('/profile', function (req, res) {
-    res.render("profile")
+    var title = "Halaman Profil"
+    res.render("profile", {
+        title: title
+    })
 })
 
-app.get('/contact', function (req, req) {
+app.get('/contact', function (req, res) {
     res.render("contact")
 })
 
