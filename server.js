@@ -13,6 +13,14 @@ app.get("/", function (req, res) {
     res.render("index")
 })
 
+app.get('/profile', function (req, res) {
+    res.render("profile")
+})
+
+app.get('/contact', function (req, req) {
+    res.render("contact")
+})
+
 // nyalain server
 app.listen(3000, function () {
     console.log('Server berjalan diport 3000');
